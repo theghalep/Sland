@@ -1,0 +1,106 @@
+/* ====== Header ====== */
+
+.header-section {
+  background-color: #fff;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #edebfd;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+}
+.main-logo {
+  max-width: 100%;
+}
+.nav {
+  flex: 1;
+  margin-left: 9.8rem;
+}
+.nav-list {
+  display: flex;
+}
+.nav-list-item a {
+  position: relative;
+  display: block;
+  padding: 1rem;
+  text-transform: capitalize;
+  margin-left: 4.4rem;
+  font-size: 1.8rem;
+  color: #5b5675;
+  font-weight: 600;
+  /* transition: all 0.5s ease-in-out; */
+}
+.nav-list-item a:hover {
+  color: #5138ee;
+}
+
+.nav-list-item a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  color: red;
+}
+
+.nav-cta-icon {
+  margin-left: 5px;
+}
+
+/* ====== Hero Section ====== */
+
+.hero-section {
+  padding: 9.6rem 0;
+  position: relative;
+}
+.hero-section div:first-child {
+  align-items: center;
+}
+.hero-img {
+  max-width: 100%;
+}
+
+.titles-box h1 {
+  font-size: 6.2rem;
+  line-height: 1.25;
+  color: #141125;
+}
+
+.cta-box {
+  display: flex;
+  column-gap: 1.6rem;
+}
+.cta-box a:first-child {
+  background-color: #5138ee;
+  color: #fff;
+}
+.cta-box a:first-child:hover {
+  background-color: #edebfd;
+  color: #5138ee;
+}
+.shape {
+  position: absolute;
+  max-width: 100%;
+}
+.hero-dots-shape {
+  top: 20%;
+  left: 7%;
+}
+.hero-close-shape {
+  top: 27%;
+  right: 44%;
+}
+.hero-tringle-shape {
+  bottom: 10%;
+  left: 4%;
+}
+
+/* ====== Featured Section ====== */
+
+.side-bg {
+  position: absolute;
+  top: 43%;
+}
