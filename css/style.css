@@ -98,6 +98,9 @@
   left: 4%;
 }
 
+.hero-section .description {
+  max-width: 49rem;
+}
 /* ====== Featured Section ====== */
 .feature-section {
   padding: 23rem 0 12rem;
@@ -156,7 +159,7 @@
   border: 1px solid transparent;
   box-shadow: 1rem 0 6rem rgb(81 56 238 / 10%);
 }
-.content-box {
+.special-section .content-box {
   padding: 3.2rem 2rem 1.6rem;
   border-bottom: 1px solid #edebfd;
 }
@@ -208,4 +211,13 @@
   padding: 1.6rem 0;
   border-radius: 0;
   background-color: #fff;
+}
+
+.What-provides-section {
+  padding: 9.6rem 0;
+}
+.provides-section {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  align-items: center;
 }
