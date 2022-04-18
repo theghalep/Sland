@@ -110,6 +110,12 @@
   max-width: 75rem;
 }
 
+.section-title span {
+  color: #5138ee;
+  padding: 1rem;
+  background: url("../images/section-title-circle.png") no-repeat center/100%
+    100%;
+}
 .side-bg {
   position: absolute;
   top: 43%;

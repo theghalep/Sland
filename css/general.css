@@ -195,11 +195,7 @@ img {
   color: #141125;
   line-height: 1.25;
 }
-.section-title span {
-  color: #5138ee;
-  padding: 1rem;
-  background: url(/images/section-title-circle.png) no-repeat center/100% 100%;
-}
+
 /* HELPER CLASSES */
 
 .mr-16 {
