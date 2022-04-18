@@ -46,8 +46,7 @@ large: 1.8
 #333
 
 --- 03 SHADOWS
-0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-
+1rem 0 6rem rgb(81 56 238 / 10%)
 
 --- 04 BORDER-RADIUS
 Default: 5px
@@ -84,10 +83,11 @@ body {
 ul li {
   list-style: none;
 }
-
+a,
 a:link,
 a:visited {
   text-decoration: none;
+  cursor: pointer;
 }
 img {
   max-width: 100%;
