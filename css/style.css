@@ -99,8 +99,36 @@
 }
 
 /* ====== Featured Section ====== */
+.feature-section {
+  padding: 23rem 0;
+}
+
+.feature-box {
+  max-width: 75rem;
+}
 
 .side-bg {
   position: absolute;
   top: 43%;
+  max-width: 100%;
+  z-index: -1;
+}
+
+.sponser-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 9.6rem;
+  row-gap: 3.2rem;
+  align-items: center;
+  justify-content: center;
+}
+.sponser-item {
+  filter: grayscale(1) opacity(0.4);
+  transition: all 0.5s ease-in-out;
+}
+.sponser-item:hover {
+  filter: none;
+}
+.sponser-img {
+  max-width: 118%;
 }
