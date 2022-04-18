@@ -234,9 +234,11 @@
   padding: 6.4rem 4.8rem;
   border-radius: 5px;
   color: #fff;
-  background: #5138ee url("../images/counter-bg.png") no-repeat;
+  /* background: #5138ee url("../images/counter-bg.png") no-repeat; */
   /* background-color: #5138ee; */
   /* background: #5138ee url(/images/counter-bg.png) no-repeat; */
+  background: url(../images/counter-bg.png) no-repeat;
+  background-color: #5138ee;
 }
 
 .counter-box {
