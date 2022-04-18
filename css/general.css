@@ -32,6 +32,8 @@ large: 1.8
     --light-color: #f8f7fc;
     --yellow-color: #ffc800;
     --border-color: #edebfd;
+    #e7e4fb
+    
 - Primary :  
 - Tints :
 
@@ -218,6 +220,9 @@ img {
   text-align: center;
 }
 
+.left-text {
+  text-align: left;
+}
 strong {
   font-weight: 500;
 }
