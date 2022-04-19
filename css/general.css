@@ -147,6 +147,14 @@ img {
   background-color: #5138ee;
 }
 
+.reverse-wt-cta {
+  /* display: block; */
+  width: 100%;
+  padding: 1.6rem 0;
+  border-radius: 0;
+  background-color: #fff;
+}
+
 .sub-title {
   display: inline-block;
   padding: 0.8rem 2rem;
@@ -206,6 +214,18 @@ img {
 .mt-16 {
   margin-top: 1.6rem !important;
 }
+.mt-32 {
+  margin-top: 3.2rem !important;
+}
+.mt-48 {
+  margin-top: 4.8rem !important;
+}
+.mt-56 {
+  margin-top: 5.6rem !important;
+}
+.mt-64 {
+  margin-top: 6.4rem !important;
+}
 .mb-16 {
   margin-bottom: 1.6rem !important;
 }
@@ -217,17 +237,21 @@ img {
 }
 
 .pad-l-54 {
-  padding-left: 5.4rem;
+  padding-left: 5.4rem !important;
 }
 .pad-r-54 {
-  padding-right: 5.4rem;
+  padding-right: 5.4rem !important;
 }
 .center-text {
-  text-align: center;
+  text-align: center !important;
 }
 
 .left-text {
-  text-align: left;
+  text-align: left !important;
+}
+
+.mg-auto {
+  margin: auto !important;
 }
 strong {
   font-weight: 500;

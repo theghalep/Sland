@@ -217,13 +217,6 @@
   line-height: 1.8;
 }
 
-.special-cta > a {
-  /* display: block; */
-  width: 100%;
-  padding: 1.6rem 0;
-  border-radius: 0;
-  background-color: #fff;
-}
 /* ====== What We Provide Section ====== */
 
 .What-provides-section {
@@ -721,3 +714,116 @@ animation: tringle 20s infinite linear; */
 }
 
 /* ====== News Section ====== */
+
+.news-section {
+  padding: 9.6rem 0;
+}
+.news-section .grid {
+  gap: 3.2rem;
+}
+
+.news-section .titles-box {
+  max-width: 80rem;
+  margin: auto;
+}
+
+.news-content-box {
+  /* position: relative; */
+  border-radius: 2px;
+  box-shadow: 1rem 0 6rem rgb(81 56 238 / 20%);
+}
+
+.data-box {
+  padding: 0 2.4rem 2.4rem;
+  border-bottom: 1px solid #e7e4fb;
+  /* background-color: #f8f7fc; */
+}
+
+.author-box {
+  /* text-align: center; */
+  position: relative;
+  top: -2.5rem;
+
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  margin: auto;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 1rem 0 6rem rgb(81 56 238 / 20%);
+
+  /* transform: translatey(-5rem); */
+}
+
+.authore-name {
+  font-size: 1.6rem;
+  color: #141125;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.authore-name:hover {
+  color: #5138ee;
+}
+
+.date-comm-box {
+  display: flex;
+  gap: 1.2rem;
+  /* text-align: center; */
+}
+.date-box,
+.comment-box {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.4rem;
+}
+.date-icon,
+.comm-icon {
+  font-size: 1.6rem;
+}
+.date-text,
+.comm-num {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.date-text:hover,
+.comm-num:hover,
+.news-title:hover {
+  color: #5138ee;
+}
+
+.news-title {
+  display: inline-block;
+  font-size: 2rem;
+  color: #141125;
+  line-height: 1.6;
+  transition: all 0.3s;
+}
+.news-description {
+  font-size: 1.8rem;
+}
+
+.news-cta .reverse-wt-cta {
+  padding: 2.4rem;
+}
+
+.news-section .cta-box .news-btn {
+  background-color: #fff;
+  color: #5138ee;
+  border: 2px solid #5138ee;
+  /* padding: 1.8rem 5.6rem; */
+}
+
+.news-section .cta-box .news-btn:hover {
+  background-color: #5138ee;
+  color: #fff;
+}
+.news-section .cta-box .news-btn i {
+  margin-left: 10px;
+}
