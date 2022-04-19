@@ -634,3 +634,90 @@ animation: tringle 20s infinite linear; */
   right: 50rem;
   z-index: 2;
 }
+
+/* ====== Feedback Section ====== */
+
+.feedback-section {
+  padding: 6.4rem 0 9.6rem 0;
+  position: relative;
+}
+
+.feedback-section .grid {
+  column-gap: 9.6rem;
+  align-items: center;
+}
+
+.feedback-bg {
+  /* width: 44vw; */
+  width: 50%;
+  top: -32rem;
+  left: -6rem;
+  z-index: -1;
+}
+
+.feedback-testimonial-box {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.feedback-testimonial-icon {
+  font-size: 4.4rem;
+  width: 6.6rem;
+  height: 6.6rem;
+  border-radius: 50%;
+  background-color: #5138ee;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.author-name {
+  font-size: 2.4rem;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+  color: #141125;
+}
+
+.author-job {
+  color: #5138ee;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.feedback-descriptions {
+  max-width: 60rem;
+  padding-bottom: 4.4rem;
+  border-bottom: 1px solid #e7e4fb;
+}
+
+.feedback-description {
+  font-size: 2.4rem;
+}
+
+.feedback-description b {
+  color: #5138ee;
+}
+
+.polits {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 4.2rem;
+  /* margin-left: 2.4rem; */
+}
+
+.polit {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  border: 2px solid #ececec;
+}
+
+.feedback-section .content-box .polits .active {
+  border-color: #5138ee;
+}
+
+/* ====== News Section ====== */

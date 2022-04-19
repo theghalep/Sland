@@ -216,6 +216,12 @@ img {
   margin-bottom: 4.8rem !important;
 }
 
+.pad-l-54 {
+  padding-left: 5.4rem;
+}
+.pad-r-54 {
+  padding-right: 5.4rem;
+}
 .center-text {
   text-align: center;
 }
