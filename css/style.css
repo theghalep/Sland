@@ -340,7 +340,7 @@ animation: tringle 20s infinite linear; */
   align-items: center;
 }
 
-.text-box {
+.core-feature-section .text-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.4rem;
@@ -826,4 +826,82 @@ animation: tringle 20s infinite linear; */
 }
 .news-section .cta-box .news-btn i {
   margin-left: 10px;
+}
+
+/* ====== Help Section ====== */
+.help-section {
+  padding: 4.4rem 0 9.6rem 0;
+}
+.help-content-box {
+  display: flex;
+  gap: 6.4rem;
+  align-items: center;
+  justify-content: space-around;
+  padding: 6.4rem 3.2rem;
+  background-color: #5138ee;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.help-title {
+  font-size: 3.4rem;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
+
+.help-description {
+  color: #fff;
+  font-size: 1.4rem;
+  letter-spacing: 0.8px;
+}
+
+/* .cta-box {
+  display: flex;
+  align-items: center;
+} */
+
+.cta-boxs {
+  display: flex;
+  gap: 3.2rem;
+}
+.cta-boxs .help-btn:first-child {
+  border: 2px solid transparent;
+  transition: all 0.5s;
+}
+.cta-boxs .help-btn:first-child:hover {
+  border: 2px solid #fff;
+}
+
+.cta-boxs .help-btn:last-child {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  transition: all 0.5s;
+}
+.cta-boxs .help-btn:last-child:hover {
+  background: #fff;
+  color: #5138ee;
+}
+
+.help-content-box img:first-of-type {
+  left: 3rem;
+  animation: cta-dots 10s infinite linear;
+}
+.help-content-box img:nth-of-type(2) {
+  animation: cta-circle 10s infinite linear;
+
+  left: 47%;
+  bottom: 2rem;
+}
+
+.help-content-box img:nth-of-type(3) {
+  animation: cta-dots 10s infinite linear;
+
+  right: 40rem;
+  top: -8rem;
+  z-index: -1;
 }
