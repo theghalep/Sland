@@ -540,7 +540,7 @@ animation: tringle 20s infinite linear; */
   grid-template-columns: 1fr 1fr;
   gap: 3.2rem;
   background-color: #5138ee;
-  padding: 6.4rem 5.4rem;
+  padding: 6.4rem 12rem;
   border-radius: 10px;
 }
 /* .cta-content-box {
